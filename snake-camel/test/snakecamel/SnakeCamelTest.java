@@ -162,7 +162,7 @@ public class SnakeCamelTest {
 	@Test
 	public void camelToSnakecase‚ðŽg‚¤4() {
 		SnakeCamelUtil scu = new SnakeCamelUtil();
-		String s = "abc_def";
+		String s = "aAbc_dDef";
 		String t = scu.camelToSnakecase("AbcDef");
 		System.out.println(t);
 		assertEquals(s,t);
@@ -171,7 +171,7 @@ public class SnakeCamelTest {
 	@Test
 	public void camelToSnakecase‚ðŽg‚¤5() {
 		SnakeCamelUtil scu = new SnakeCamelUtil();
-		String s = "abc_def_gh";
+		String s = "aAbc_dDef_gGh";
 		String t = scu.camelToSnakecase("AbcDefGh");
 		System.out.println(t);
 		assertEquals(s,t);
